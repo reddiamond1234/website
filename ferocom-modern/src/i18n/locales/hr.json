@@ -1,0 +1,255 @@
+{
+  "nav": {
+    "home": "Proizvodi",
+    "about": "O nama",
+    "location": "Lokacija",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "companyName": "FEROCOM d.o.o."
+  },
+  "footer": {
+    "copyright": "© {year} FEROCOM d.o.o. Sva prava pridržana."
+  },
+  "home": {
+    "title": "Naši Proizvodi",
+    "selectProduct": "Odaberite proizvod za više informacija"
+  },
+  "about": {
+    "title": "O Nama",
+    "introduction": "FEROCOM d.o.o. iz Ljubljane osnovan je 1992. godine i u više od trideset godina izrastao je od prodavača kanalskog lijeva u specijaliziranu trgovačku i proizvodnu tvrtku za:",
+    "extendedIntro": "Od 1992. godine pouzdani smo dobavljač poklopaca od lijevanog željeza, rešetki, drenažnih kanala, cestovnih kapa i betonskih prstenova za cestovnu i komunalnu infrastrukturu, opslužujući općine, komunalna poduzeća, građevinske izvođače i investitore. Naši proizvodi koriste se na cestama, pločnicima, parkiralištima i drugim prometno opterećenim površinama gdje su sigurnost i trajnost od presudne važnosti.",
+    "fastDeliveryTitle": "Brza Dostava",
+    "fastDelivery": "Naša glavna prednost je brza dostava. Većina naših proizvoda stalno je na zalihi, što omogućuje kratke rokove isporuke i nesmetanu provedbu projekata bez kašnjenja. Po potrebi pružamo i prilagođena rješenja prema tehničkim zahtjevima kupca.",
+    "qualityTitle": "Kvaliteta",
+    "quality": "Nudimo kvalitetne proizvode izrađene od provjerenih materijala koji zadovoljavaju važeće tehničke standarde i prikladni su za velika prometna opterećenja. Naši poklopci dizajnirani su za dug vijek trajanja i minimalno održavanje.",
+    "supportTitle": "Podrška",
+    "support": "Osim proizvoda, nudimo i stručno savjetovanje, brzu reakciju i pouzdanu podršku, jer razumijemo da su vrijeme i kvaliteta ključni čimbenici u infrastrukturnim projektima.",
+    "productsTitle": "Naši Proizvodi",
+    "products": {
+      "covers": "Okrugli i kvadratni poklopci od lijevanog željeza, proizvedeni prema standardima SIST EN 124.",
+      "caps": "Sve vrste cestovnih kapa za vanjski vodovod i plin",
+      "channels": "Razne vrste drenažnih kanala"
+    },
+    "usageAreasTitle": "Dizajnirani za ugradnju u različitim područjima:",
+    "usageAreas": {
+      "b125": {
+        "class": "B 125 (150KN)",
+        "description": "pločnici, pješačke staze, parkirališta za osobna vozila"
+      },
+      "c250": {
+        "class": "C 250 (250KN)",
+        "description": "bankine, pločnici, bočne trake, parkirališta za kamione"
+      },
+      "d400": {
+        "class": "D 400 (400KN)",
+        "description": "ceste, ulice, bankine i parkirališta s teškim teretnim prometom"
+      }
+    },
+    "inscriptionsTitle": "Poklopci su dostupni s natpisima:",
+    "inscriptions": {
+      "sewage": "Kanalizacija",
+      "water": "Vodovod",
+      "phone": "Telefon",
+      "electricity": "Elektrika",
+      "none": "Bez natpisa"
+    },
+    "protection": "Svi proizvodi zaštićeni su od korozije crnom bojom.",
+    "foundedYear": "Osnovano {year}. godine"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "emailLabel": "E-pošta",
+    "phoneLabel": "Telefon",
+    "workingHoursTitle": "Radno Vrijeme",
+    "weekdays": "Ponedjeljak - Petak: 7:00 - 14:30",
+    "weekends": "Vikendi, Praznici: zatvoreno"
+  },
+  "location": {
+    "title": "Lokacija",
+    "addressLabel": "Adresa",
+    "address": "Brnčičeva ulica 45",
+    "city": "Ljubljana - Črnuče",
+    "country": "Slovenija",
+    "zip": "1000",
+    "mapTitle": "Pronađite nas na karti"
+  },
+  "products": {
+    "details": "Detalji",
+    "specifications": "Specifikacije",
+    "variants": "Varijante",
+    "size": "Veličina",
+    "material": "Materijal",
+    "description": "Opis",
+    "backToProducts": "Natrag na proizvode",
+    "notFound": "Proizvod nije pronađen"
+  },
+  "productData": {
+    "covers": {
+      "name": "Poklopci od Lijevanog Željeza",
+      "details": "Okrugli i kvadratni poklopci od lijevanog željeza, proizvedeni prema standardima SIST EN 124.",
+      "longDescription": "Okrugli i kvadratni poklopci od lijevanog željeza proizvedeni su u skladu sa strogim standardima SIST EN 124. Dizajnirani su za ugradnju u različitim područjima ovisno o zahtjevima opterećenja (B 125, C 250, D 400). Svi poklopci zaštićeni su od korozije crnom bojom i omogućuju različite natpise (Kanalizacija, Vodovod, Telefon, Elektrika ili bez natpisa).",
+      "stats": {
+        "standard": "SIST EN 124",
+        "loadClasses": "B 125, C 250, D 400",
+        "material": "Lijevano željezo",
+        "protection": "Antikorozivna crna boja"
+      },
+      "variants": {
+        "b125": {
+          "size": "B 125 (150KN)",
+          "description": "Pločnici, pješačke staze, parkirališta za osobna vozila"
+        },
+        "c250": {
+          "size": "C 250 (250KN)",
+          "description": "Bankine, pločnici, bočne trake, parkirališta za kamione"
+        },
+        "d400": {
+          "size": "D 400 (400KN)",
+          "description": "Ceste, ulice, bankine i parkirališta s teškim teretnim prometom"
+        }
+      }
+    },
+    "grates": {
+      "name": "Rešetke od Lijevanog Željeza",
+      "details": "Drenažne rešetke od lijevanog željeza, izdržljive i pouzdane za razne namjene.",
+      "longDescription": "Drenažne rešetke od lijevanog željeza dizajnirane su za dugotrajnu uporabu u raznim uvjetima. Proizvedene su u skladu sa standardima za odvodnju i prikladne za ugradnju u područjima s različitim zahtjevima opterećenja. Odlikuje ih izvrsna izdržljivost i performanse.",
+      "stats": {
+        "standard": "SIST EN 124",
+        "material": "Lijevano željezo",
+        "usage": "Odvodnja",
+        "protection": "Antikorozivna crna boja"
+      },
+      "variants": {
+        "b125": {
+          "size": "Standard B 125",
+          "description": "Laka opterećenja"
+        },
+        "c250": {
+          "size": "Standard C 250",
+          "description": "Srednja opterećenja"
+        },
+        "d400": {
+          "size": "Standard D 400",
+          "description": "Teška opterećenja"
+        }
+      }
+    },
+    "channels": {
+      "name": "Drenažni Kanali",
+      "details": "Razne vrste drenažnih kanala za vodu i druge tekućine.",
+      "longDescription": "Drenažni kanali dizajnirani su za učinkovitu odvodnju vode i drugih tekućina. Dostupni su u raznim veličinama i materijalima, prikladni za različite primjene i namjene. Omogućuju jednostavnu ugradnju i održavanje.",
+      "stats": {
+        "material": "Beton, Plastika",
+        "usage": "Linijska odvodnja",
+        "advantages": "Jednostavna ugradnja i održavanje"
+      },
+      "variants": {
+        "concrete": {
+          "size": "Razne veličine",
+          "material": "Beton",
+          "description": "Za teža opterećenja"
+        },
+        "plastic": {
+          "size": "Razne veličine",
+          "material": "Plastika",
+          "description": "Za lakša opterećenja"
+        }
+      }
+    },
+    "roadCaps": {
+      "name": "Cestovne Kape",
+      "details": "Cestovne kape za vanjski vodovod i plin, izrađene od kvalitetnih materijala.",
+      "longDescription": "Cestovne kape dizajnirane su za pristup ventilima i zasunima na vodovodnim i plinskim mrežama. Izrađene od lijevanog željeza ili plastike, osiguravaju jednostavan pristup i zaštitu od vanjskih utjecaja. Prikladne za ugradnju na raznim prometnim površinama.",
+      "stats": {
+        "material": "Lijevano željezo, Plastika",
+        "usage": "Vodovod, Plin",
+        "protection": "Antikorozivna zaštita"
+      },
+      "variants": {
+        "water": {
+          "size": "DN 80-100",
+          "material": "Lijevano željezo",
+          "description": "Za vodovodne ventile"
+        },
+        "gas": {
+          "size": "DN 50-80",
+          "material": "Lijevano željezo",
+          "description": "Za plinske ventile"
+        },
+        "plastic": {
+          "size": "Razne veličine",
+          "material": "Plastika",
+          "description": "Za lakša opterećenja"
+        }
+      }
+    },
+    "concreteRings": {
+      "name": "Betonski Prstenovi",
+      "details": "Betonski prstenovi za okna i revizijske komore komunalne infrastrukture.",
+      "longDescription": "Betonski prstenovi ključni su elementi za izgradnju okana i revizijskih komora u komunalnoj infrastrukturi. Izrađeni od armiranog betona visoke kvalitete koji osigurava trajnost i otpornost na vanjske utjecaje. Dostupni u raznim promjerima i visinama.",
+      "stats": {
+        "material": "Armirani beton",
+        "usage": "Okna, revizijske komore",
+        "advantages": "Visoka nosivost i trajnost"
+      },
+      "variants": {
+        "small": {
+          "size": "DN 600",
+          "material": "Beton",
+          "description": "Manja okna"
+        },
+        "medium": {
+          "size": "DN 800",
+          "material": "Beton",
+          "description": "Srednja okna"
+        },
+        "large": {
+          "size": "DN 1000",
+          "material": "Beton",
+          "description": "Velika okna i komore"
+        }
+      }
+    },
+    "gullyPots": {
+      "name": "Slivnici",
+      "details": "Cestovni slivnici za odvodnju oborinske vode s cesta i parkirališta.",
+      "longDescription": "Slivnici su dizajnirani za prikupljanje i odvođenje oborinske vode s cesta, parkirališta i drugih popločenih površina. Opremljeni su taložnikom za pijesak i nečistoće te priključkom za odvodnu cijev. Izrađeni od betona ili plastike i dostupni u raznim izvedbama.",
+      "stats": {
+        "material": "Beton, Plastika",
+        "usage": "Odvodnja cesta",
+        "advantages": "Jednostavno čišćenje i održavanje"
+      },
+      "variants": {
+        "standard": {
+          "size": "400x400 mm",
+          "material": "Beton",
+          "description": "Standardni cestovni slivnik"
+        },
+        "small": {
+          "size": "300x300 mm",
+          "material": "Plastika",
+          "description": "Manji slivnik za dvorišta"
+        },
+        "large": {
+          "size": "500x500 mm",
+          "material": "Beton",
+          "description": "Veliki slivnik za veće protoke"
+        }
+      }
+    },
+    "statsLabels": {
+      "standard": "Standard",
+      "loadClasses": "Klase Opterećenja",
+      "material": "Materijal",
+      "protection": "Zaštita",
+      "usage": "Uporaba",
+      "advantages": "Prednosti"
+    }
+  },
+  "language": {
+    "select": "Jezik",
+    "slovenian": "Slovensko",
+    "english": "English"
+  }
+}

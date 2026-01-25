@@ -1,0 +1,255 @@
+{
+  "nav": {
+    "home": "Prodotti",
+    "about": "Chi siamo",
+    "location": "Posizione",
+    "contact": "Contatti"
+  },
+  "header": {
+    "companyName": "FEROCOM d.o.o."
+  },
+  "footer": {
+    "copyright": "© {year} FEROCOM d.o.o. Tutti i diritti riservati."
+  },
+  "home": {
+    "title": "I Nostri Prodotti",
+    "selectProduct": "Seleziona un prodotto per maggiori informazioni"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "introduction": "FEROCOM d.o.o. di Lubiana è stata fondata nel 1992 e in oltre trent'anni è cresciuta da venditore di ghisa per canali a un'azienda commerciale e produttiva specializzata in:",
+    "extendedIntro": "Dal 1992 siamo un fornitore affidabile di chiusini in ghisa, griglie, canali di drenaggio, cappellotti stradali e anelli in cemento per infrastrutture stradali e comunali, al servizio di comuni, aziende di servizi pubblici, imprese edili e investitori. I nostri prodotti vengono utilizzati su strade, marciapiedi, parcheggi e altre superfici soggette a traffico dove sicurezza e durata sono di fondamentale importanza.",
+    "fastDeliveryTitle": "Consegna Rapida",
+    "fastDelivery": "Il nostro principale vantaggio è la consegna rapida. La maggior parte dei nostri prodotti è costantemente disponibile in magazzino, consentendo tempi di consegna brevi e un'esecuzione fluida dei progetti senza ritardi. Quando necessario, forniamo anche soluzioni personalizzate secondo le specifiche tecniche del cliente.",
+    "qualityTitle": "Qualità",
+    "quality": "Offriamo prodotti di qualità realizzati con materiali collaudati che soddisfano gli standard tecnici applicabili e sono adatti per carichi di traffico elevati. I nostri chiusini sono progettati per una lunga durata e una manutenzione minima.",
+    "supportTitle": "Supporto",
+    "support": "Oltre ai prodotti, offriamo anche consulenza specializzata, rapidità di risposta e supporto affidabile, poiché comprendiamo che tempo e qualità sono fattori chiave nei progetti infrastrutturali.",
+    "productsTitle": "I Nostri Prodotti",
+    "products": {
+      "covers": "Chiusini rotondi e quadrati in ghisa, prodotti secondo gli standard SIST EN 124.",
+      "caps": "Tutti i tipi di cappellotti stradali per acquedotto e gas",
+      "channels": "Vari tipi di canali di drenaggio"
+    },
+    "usageAreasTitle": "Progettati per l'installazione in varie aree:",
+    "usageAreas": {
+      "b125": {
+        "class": "B 125 (150KN)",
+        "description": "marciapiedi, percorsi pedonali, parcheggi per veicoli passeggeri"
+      },
+      "c250": {
+        "class": "C 250 (250KN)",
+        "description": "banchine stradali, marciapiedi, corsie laterali, parcheggi per camion"
+      },
+      "d400": {
+        "class": "D 400 (400KN)",
+        "description": "strade, vie, banchine e parcheggi con traffico pesante"
+      }
+    },
+    "inscriptionsTitle": "I chiusini sono disponibili con iscrizioni:",
+    "inscriptions": {
+      "sewage": "Fognatura",
+      "water": "Acquedotto",
+      "phone": "Telefono",
+      "electricity": "Elettricità",
+      "none": "Senza iscrizione"
+    },
+    "protection": "Tutti i prodotti sono protetti dalla corrosione con vernice nera.",
+    "foundedYear": "Fondata nel {year}"
+  },
+  "contact": {
+    "title": "Contatti",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefono",
+    "workingHoursTitle": "Orari di Lavoro",
+    "weekdays": "Lunedì - Venerdì: 7:00 - 14:30",
+    "weekends": "Weekend, Festivi: chiuso"
+  },
+  "location": {
+    "title": "Posizione",
+    "addressLabel": "Indirizzo",
+    "address": "Brnčičeva ulica 45",
+    "city": "Lubiana - Črnuče",
+    "country": "Slovenia",
+    "zip": "1000",
+    "mapTitle": "Trovaci sulla mappa"
+  },
+  "products": {
+    "details": "Dettagli",
+    "specifications": "Specifiche",
+    "variants": "Varianti",
+    "size": "Dimensione",
+    "material": "Materiale",
+    "description": "Descrizione",
+    "backToProducts": "Torna ai prodotti",
+    "notFound": "Prodotto non trovato"
+  },
+  "productData": {
+    "covers": {
+      "name": "Chiusini in Ghisa",
+      "details": "Chiusini rotondi e quadrati in ghisa, prodotti secondo gli standard SIST EN 124.",
+      "longDescription": "I chiusini rotondi e quadrati in ghisa sono prodotti in conformità ai rigorosi standard SIST EN 124. Sono progettati per l'installazione in varie aree a seconda dei requisiti di carico (B 125, C 250, D 400). Tutti i chiusini sono protetti dalla corrosione con vernice nera e consentono varie iscrizioni (Fognatura, Acquedotto, Telefono, Elettricità o senza iscrizione).",
+      "stats": {
+        "standard": "SIST EN 124",
+        "loadClasses": "B 125, C 250, D 400",
+        "material": "Ghisa",
+        "protection": "Vernice nera anticorrosione"
+      },
+      "variants": {
+        "b125": {
+          "size": "B 125 (150KN)",
+          "description": "Marciapiedi, percorsi pedonali, parcheggi per veicoli passeggeri"
+        },
+        "c250": {
+          "size": "C 250 (250KN)",
+          "description": "Banchine stradali, marciapiedi, corsie laterali, parcheggi per camion"
+        },
+        "d400": {
+          "size": "D 400 (400KN)",
+          "description": "Strade, vie, banchine e parcheggi con traffico pesante"
+        }
+      }
+    },
+    "grates": {
+      "name": "Griglie in Ghisa",
+      "details": "Griglie di drenaggio in ghisa, durevoli e affidabili per vari scopi.",
+      "longDescription": "Le griglie di drenaggio in ghisa sono progettate per un uso duraturo in varie condizioni. Sono prodotte in conformità agli standard di drenaggio e adatte per l'installazione in aree con diversi requisiti di carico. Sono caratterizzate da eccellente durata e prestazioni.",
+      "stats": {
+        "standard": "SIST EN 124",
+        "material": "Ghisa",
+        "usage": "Drenaggio",
+        "protection": "Vernice nera anticorrosione"
+      },
+      "variants": {
+        "b125": {
+          "size": "Standard B 125",
+          "description": "Carichi leggeri"
+        },
+        "c250": {
+          "size": "Standard C 250",
+          "description": "Carichi medi"
+        },
+        "d400": {
+          "size": "Standard D 400",
+          "description": "Carichi pesanti"
+        }
+      }
+    },
+    "channels": {
+      "name": "Canali di Drenaggio",
+      "details": "Vari tipi di canali di drenaggio per acqua e altri liquidi.",
+      "longDescription": "I canali di drenaggio sono progettati per un drenaggio efficiente di acqua e altri liquidi. Sono disponibili in varie dimensioni e materiali, adatti a diverse applicazioni e scopi. Consentono una facile installazione e manutenzione.",
+      "stats": {
+        "material": "Cemento, Plastica",
+        "usage": "Drenaggio lineare",
+        "advantages": "Facile installazione e manutenzione"
+      },
+      "variants": {
+        "concrete": {
+          "size": "Varie dimensioni",
+          "material": "Cemento",
+          "description": "Per carichi pesanti"
+        },
+        "plastic": {
+          "size": "Varie dimensioni",
+          "material": "Plastica",
+          "description": "Per carichi leggeri"
+        }
+      }
+    },
+    "roadCaps": {
+      "name": "Cappellotti Stradali",
+      "details": "Cappellotti stradali per acquedotto e gas, realizzati con materiali di qualità.",
+      "longDescription": "I cappellotti stradali sono progettati per fornire accesso a valvole e saracinesche su reti idriche e del gas. Realizzati in ghisa o plastica, garantiscono facile accesso e protezione dalle influenze esterne. Adatti per l'installazione su varie superfici stradali.",
+      "stats": {
+        "material": "Ghisa, Plastica",
+        "usage": "Acquedotto, Gas",
+        "protection": "Protezione anticorrosione"
+      },
+      "variants": {
+        "water": {
+          "size": "DN 80-100",
+          "material": "Ghisa",
+          "description": "Per valvole acquedotto"
+        },
+        "gas": {
+          "size": "DN 50-80",
+          "material": "Ghisa",
+          "description": "Per valvole gas"
+        },
+        "plastic": {
+          "size": "Varie dimensioni",
+          "material": "Plastica",
+          "description": "Per carichi leggeri"
+        }
+      }
+    },
+    "concreteRings": {
+      "name": "Anelli in Cemento",
+      "details": "Anelli in cemento per pozzetti e camere di ispezione di infrastrutture comunali.",
+      "longDescription": "Gli anelli in cemento sono elementi chiave per la costruzione di pozzetti e camere di ispezione nelle infrastrutture comunali. Realizzati in cemento armato di alta qualità che garantisce durata e resistenza alle influenze esterne. Disponibili in vari diametri e altezze.",
+      "stats": {
+        "material": "Cemento Armato",
+        "usage": "Pozzetti, camere di ispezione",
+        "advantages": "Alta capacità di carico e durata"
+      },
+      "variants": {
+        "small": {
+          "size": "DN 600",
+          "material": "Cemento",
+          "description": "Pozzetti piccoli"
+        },
+        "medium": {
+          "size": "DN 800",
+          "material": "Cemento",
+          "description": "Pozzetti medi"
+        },
+        "large": {
+          "size": "DN 1000",
+          "material": "Cemento",
+          "description": "Pozzetti grandi e camere"
+        }
+      }
+    },
+    "gullyPots": {
+      "name": "Pozzetti Stradali",
+      "details": "Pozzetti stradali per il drenaggio dell'acqua piovana da strade e parcheggi.",
+      "longDescription": "I pozzetti stradali sono progettati per raccogliere e drenare l'acqua piovana da strade, parcheggi e altre superfici pavimentate. Sono dotati di una trappola per sedimenti per sabbia e detriti e di un collegamento per tubi di drenaggio. Realizzati in cemento o plastica e disponibili in vari design.",
+      "stats": {
+        "material": "Cemento, Plastica",
+        "usage": "Drenaggio stradale",
+        "advantages": "Facile pulizia e manutenzione"
+      },
+      "variants": {
+        "standard": {
+          "size": "400x400 mm",
+          "material": "Cemento",
+          "description": "Pozzetto stradale standard"
+        },
+        "small": {
+          "size": "300x300 mm",
+          "material": "Plastica",
+          "description": "Pozzetto piccolo per cortili"
+        },
+        "large": {
+          "size": "500x500 mm",
+          "material": "Cemento",
+          "description": "Pozzetto grande per portate elevate"
+        }
+      }
+    },
+    "statsLabels": {
+      "standard": "Standard",
+      "loadClasses": "Classi di Carico",
+      "material": "Materiale",
+      "protection": "Protezione",
+      "usage": "Utilizzo",
+      "advantages": "Vantaggi"
+    }
+  },
+  "language": {
+    "select": "Lingua",
+    "slovenian": "Slovensko",
+    "english": "English"
+  }
+}

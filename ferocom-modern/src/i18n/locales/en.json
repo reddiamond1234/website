@@ -1,0 +1,255 @@
+{
+  "nav": {
+    "home": "Products",
+    "about": "About",
+    "location": "Location",
+    "contact": "Contact"
+  },
+  "header": {
+    "companyName": "FEROCOM d.o.o."
+  },
+  "footer": {
+    "copyright": "© {year} FEROCOM d.o.o. All rights reserved."
+  },
+  "home": {
+    "title": "Our Products",
+    "selectProduct": "Select a product for more information"
+  },
+  "about": {
+    "title": "About Us",
+    "introduction": "FEROCOM d.o.o. from Ljubljana was established in 1992 and over more than thirty years has grown from a channel iron seller into a specialized trade and production company for:",
+    "extendedIntro": "Since 1992, we have been a reliable supplier of cast iron covers, grates, drainage channels, road caps, and concrete rings for road and municipal infrastructure, serving municipalities, utility companies, construction contractors, and investors. Our products are used on roads, sidewalks, parking lots, and other traffic-loaded surfaces where safety and durability are of paramount importance.",
+    "fastDeliveryTitle": "Fast Delivery",
+    "fastDelivery": "Our main advantage is fast delivery. Most of our products are constantly in stock, enabling short delivery times and smooth project execution without delays. When needed, we also provide customized solutions according to the customer's technical requirements.",
+    "qualityTitle": "Quality",
+    "quality": "We offer quality products made from proven materials that meet applicable technical standards and are suitable for high traffic loads. Our covers are designed for long service life and minimal maintenance.",
+    "supportTitle": "Support",
+    "support": "In addition to products, we also offer expert consulting, quick responsiveness, and reliable support, as we understand that time and quality are key factors in infrastructure projects.",
+    "productsTitle": "Our Products",
+    "products": {
+      "covers": "Cast iron round and square channel covers and grates, manufactured according to SIST EN 124 standards.",
+      "caps": "All types of road caps for external water supply and gas",
+      "channels": "Various types of drainage channels"
+    },
+    "usageAreasTitle": "Designed for installation in various areas:",
+    "usageAreas": {
+      "b125": {
+        "class": "B 125 (150KN)",
+        "description": "sidewalks, pedestrian paths, parking lots for passenger vehicles"
+      },
+      "c250": {
+        "class": "C 250 (250KN)",
+        "description": "road shoulders, sidewalks, side lanes, parking lots for trucks"
+      },
+      "d400": {
+        "class": "D 400 (400KN)",
+        "description": "roads, streets, shoulders and parking lots with heavy truck traffic"
+      }
+    },
+    "inscriptionsTitle": "Channel covers are available with inscriptions:",
+    "inscriptions": {
+      "sewage": "Sewage",
+      "water": "Water Supply",
+      "phone": "Telephone",
+      "electricity": "Electricity",
+      "none": "No inscription"
+    },
+    "protection": "All products are protected against corrosion with black paint.",
+    "foundedYear": "Established in {year}"
+  },
+  "contact": {
+    "title": "Contact",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "workingHoursTitle": "Working Hours",
+    "weekdays": "Monday - Friday: 7:00 AM - 2:30 PM",
+    "weekends": "Weekends, Holidays: closed"
+  },
+  "location": {
+    "title": "Location",
+    "addressLabel": "Address",
+    "address": "Brnčičeva ulica 45",
+    "city": "Ljubljana - Črnuče",
+    "country": "Slovenia",
+    "zip": "1000",
+    "mapTitle": "Find us on the map"
+  },
+  "products": {
+    "details": "Details",
+    "specifications": "Specifications",
+    "variants": "Variants",
+    "size": "Size",
+    "material": "Material",
+    "description": "Description",
+    "backToProducts": "Back to products",
+    "notFound": "Product not found"
+  },
+  "productData": {
+    "covers": {
+      "name": "Cast Iron Covers",
+      "details": "Cast iron round and square channel covers, manufactured according to SIST EN 124 standards.",
+      "longDescription": "Cast iron round and square channel covers are manufactured in accordance with strict SIST EN 124 standards. They are designed for installation in various areas depending on load requirements (B 125, C 250, D 400). All covers are protected against corrosion with black paint and allow for various inscriptions (Sewage, Water Supply, Telephone, Electricity, or no inscription).",
+      "stats": {
+        "standard": "SIST EN 124",
+        "loadClasses": "B 125, C 250, D 400",
+        "material": "Cast Iron",
+        "protection": "Anti-corrosion black paint"
+      },
+      "variants": {
+        "b125": {
+          "size": "B 125 (150KN)",
+          "description": "Sidewalks, pedestrian paths, parking lots for passenger vehicles"
+        },
+        "c250": {
+          "size": "C 250 (250KN)",
+          "description": "Road shoulders, sidewalks, side lanes, parking lots for trucks"
+        },
+        "d400": {
+          "size": "D 400 (400KN)",
+          "description": "Roads, streets, shoulders and parking lots with heavy truck traffic"
+        }
+      }
+    },
+    "grates": {
+      "name": "Cast Iron Grates",
+      "details": "Cast iron drainage grates, durable and reliable for various purposes.",
+      "longDescription": "Cast iron drainage grates are designed for long-lasting use in various conditions. They are manufactured in accordance with drainage standards and suitable for installation in areas with different load requirements. They are characterized by excellent durability and performance.",
+      "stats": {
+        "standard": "SIST EN 124",
+        "material": "Cast Iron",
+        "usage": "Drainage",
+        "protection": "Anti-corrosion black paint"
+      },
+      "variants": {
+        "b125": {
+          "size": "Standard B 125",
+          "description": "Light loads"
+        },
+        "c250": {
+          "size": "Standard C 250",
+          "description": "Medium loads"
+        },
+        "d400": {
+          "size": "Standard D 400",
+          "description": "Heavy loads"
+        }
+      }
+    },
+    "channels": {
+      "name": "Drainage Channels",
+      "details": "Various types of drainage channels for water and other liquids.",
+      "longDescription": "Drainage channels are designed for efficient drainage of water and other liquids. They are available in various sizes and materials, suitable for different applications and purposes. They allow for easy installation and maintenance.",
+      "stats": {
+        "material": "Concrete, Plastic",
+        "usage": "Line drainage",
+        "advantages": "Easy installation and maintenance"
+      },
+      "variants": {
+        "concrete": {
+          "size": "Various sizes",
+          "material": "Concrete",
+          "description": "For heavier loads"
+        },
+        "plastic": {
+          "size": "Various sizes",
+          "material": "Plastic",
+          "description": "For lighter loads"
+        }
+      }
+    },
+    "roadCaps": {
+      "name": "Road Caps",
+      "details": "Road caps for external water supply and gas, made from quality materials.",
+      "longDescription": "Road caps are designed to provide access to valves and shut-offs on water and gas networks. Made from cast iron or plastic, they ensure easy access and protection from external influences. Suitable for installation on various traffic surfaces.",
+      "stats": {
+        "material": "Cast Iron, Plastic",
+        "usage": "Water Supply, Gas",
+        "protection": "Anti-corrosion protection"
+      },
+      "variants": {
+        "water": {
+          "size": "DN 80-100",
+          "material": "Cast Iron",
+          "description": "For water supply valves"
+        },
+        "gas": {
+          "size": "DN 50-80",
+          "material": "Cast Iron",
+          "description": "For gas valves"
+        },
+        "plastic": {
+          "size": "Various sizes",
+          "material": "Plastic",
+          "description": "For lighter loads"
+        }
+      }
+    },
+    "concreteRings": {
+      "name": "Concrete Rings",
+      "details": "Concrete rings for manholes and inspection chambers of municipal infrastructure.",
+      "longDescription": "Concrete rings are key elements for building manholes and inspection chambers in municipal infrastructure. Made from high-quality reinforced concrete that ensures durability and resistance to external influences. Available in various diameters and heights.",
+      "stats": {
+        "material": "Reinforced Concrete",
+        "usage": "Manholes, inspection chambers",
+        "advantages": "High load capacity and durability"
+      },
+      "variants": {
+        "small": {
+          "size": "DN 600",
+          "material": "Concrete",
+          "description": "Smaller manholes"
+        },
+        "medium": {
+          "size": "DN 800",
+          "material": "Concrete",
+          "description": "Medium manholes"
+        },
+        "large": {
+          "size": "DN 1000",
+          "material": "Concrete",
+          "description": "Large manholes and chambers"
+        }
+      }
+    },
+    "gullyPots": {
+      "name": "Gully Pots",
+      "details": "Road gully pots for draining rainwater from roads and parking lots.",
+      "longDescription": "Gully pots are designed for collecting and draining rainwater from roads, parking lots, and other paved surfaces. They are equipped with a sediment trap for sand and debris and a connection for drainage pipes. Made from concrete or plastic and available in various designs.",
+      "stats": {
+        "material": "Concrete, Plastic",
+        "usage": "Road drainage",
+        "advantages": "Easy cleaning and maintenance"
+      },
+      "variants": {
+        "standard": {
+          "size": "400x400 mm",
+          "material": "Concrete",
+          "description": "Standard road gully pot"
+        },
+        "small": {
+          "size": "300x300 mm",
+          "material": "Plastic",
+          "description": "Smaller gully pot for yards"
+        },
+        "large": {
+          "size": "500x500 mm",
+          "material": "Concrete",
+          "description": "Large gully pot for higher flow rates"
+        }
+      }
+    },
+    "statsLabels": {
+      "standard": "Standard",
+      "loadClasses": "Load Classes",
+      "material": "Material",
+      "protection": "Protection",
+      "usage": "Usage",
+      "advantages": "Advantages"
+    }
+  },
+  "language": {
+    "select": "Language",
+    "slovenian": "Slovensko",
+    "english": "English"
+  }
+}
