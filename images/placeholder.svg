@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect fill="#e5e7eb" width="400" height="300"/>
+  <g fill="#9ca3af">
+    <path d="M160 100h80v60h-80z"/>
+    <circle cx="180" cy="120" r="8"/>
+    <path d="M160 145l25-20 20 15 15-10 20 30h-80z"/>
+  </g>
+  <text x="200" y="200" text-anchor="middle" fill="#6b7280" font-family="system-ui, sans-serif" font-size="14">Slika ni na voljo</text>
+</svg>
