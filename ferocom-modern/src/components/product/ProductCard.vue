@@ -43,7 +43,7 @@ const onImageLoad = () => {
 }
 
 const onImageError = (e) => {
-  e.target.src = '/images/placeholder.png'
+  e.target.src = '/images/placeholder.svg'
 }
 
 const getProductName = () => {
