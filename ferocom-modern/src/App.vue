@@ -9,7 +9,7 @@ import TheFooter from './components/layout/TheFooter.vue'
   <div id="app" class="min-h-screen flex flex-col bg-neutral-50">
     <TheHeader />
     <TheNavigation />
-    <main class="container-main flex-1 pt-40 md:pt-44 pb-4">
+    <main class="container-main flex-1 pt-[108px] md:pt-[150px] pb-4">
       <RouterView />
     </main>
     <TheFooter />

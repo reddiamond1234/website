@@ -1,3 +1,9 @@
+# MIME Types - Fix for TypeScript/JavaScript modules
+<IfModule mod_mime.c>
+  AddType application/javascript .js .mjs
+  AddType text/javascript .ts .mts
+</IfModule>
+
 # Enable Rewrite Engine
 <IfModule mod_rewrite.c>
   RewriteEngine On

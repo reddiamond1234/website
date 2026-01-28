@@ -85,166 +85,40 @@
     "notFound": "Izdelek ni bil najden"
   },
   "productData": {
-    "covers": {
-      "name": "LTŽ pokrovi",
-      "details": "Litoželezni okrogli in kvadratni kanalski pokrovi, izdelani v zahtevanih standardih SIST EN 124.",
-      "longDescription": "Litoželezni okrogli in kvadratni kanalski pokrovi so izdelani v skladu z zahtevnimi standardi SIST EN 124. Namenjeni so za vgradnjo na različna območja glede na obremenitev (B 125, C 250, D 400). Vsi pokrovi so antikorozijsko zaščiteni s črno barvo in omogočajo različne napise (Kanalizacija, Vodovod, Telefon, Elektrika ali brez napisa).",
-      "stats": {
-        "standard": "SIST EN 124",
-        "loadClasses": "B 125, C 250, D 400",
-        "material": "Litina",
-        "protection": "Antikorozijska črna barva"
-      },
-      "variants": {
-        "b125": {
-          "size": "B 125 (150KN)",
-          "description": "Pločniki, pešpoti, parkirišča za osebna vozila"
-        },
-        "c250": {
-          "size": "C 250 (250KN)",
-          "description": "Bankine, pločniki, stranski pasovi cest, parkirišča za tovorna vozila"
-        },
-        "d400": {
-          "size": "D 400 (400KN)",
-          "description": "Ceste, ulice, bankine in parkirišča s težjim tovornim prometom"
-        }
-      }
+    "gridion": {
+      "name": "Kanalete Gridion",
+      "details": "Cestne kanalete",
+      "longDescription": ""
     },
-    "grates": {
-      "name": "LTŽ rešetke",
-      "details": "Litoželezne rešetke za odvodnjo, odporne in zanesljive za različne namene.",
-      "longDescription": "Litoželezne rešetke za odvodnjo so zasnovane za dolgotrajno uporabo v različnih pogojih. Izdelane so v skladu s standardi za odvodnjavanje in primerne za vgradnjo na območjih z različnimi obremenitvami. Odlikuje jih odlična vzdržljivost in zmogljivost.",
-      "stats": {
-        "standard": "SIST EN 124",
-        "material": "Litina",
-        "usage": "Odvodnjavanja",
-        "protection": "Antikorozijska črna barva"
-      },
-      "variants": {
-        "b125": {
-          "size": "Standard B 125",
-          "description": "Lažje obremenitve"
-        },
-        "c250": {
-          "size": "Standard C 250",
-          "description": "Srednje obremenitve"
-        },
-        "d400": {
-          "size": "Standard D 400",
-          "description": "Težke obremenitve"
-        }
-      }
+    "sabdrain": {
+      "name": "Kanalete Sabdrain",
+      "details": "Kanalete za domačo uporabo",
+      "longDescription": ""
     },
-    "channels": {
-      "name": "Kanalete",
-      "details": "Različne vrste kanalet za odvodnjo vode in drugih tekočin.",
-      "longDescription": "Kanalete so zasnovane za učinkovito odvodnjo vode in drugih tekočin. Na voljo so v različnih velikostih in materialih, primerni za različne aplikacije in namene. Omogočajo enostavno vgradnjo in vzdrževanje.",
-      "stats": {
-        "material": "Beton, Plastika",
-        "usage": "Linijsko odvodnavanje",
-        "advantages": "Enostavna montaža in vzdrževanje"
-      },
-      "variants": {
-        "concrete": {
-          "size": "Različne velikosti",
-          "material": "Beton",
-          "description": "Za večje obremenitve"
-        },
-        "plastic": {
-          "size": "Različne velikosti",
-          "material": "Plastika",
-          "description": "Za lažje obremenitve"
-        }
-      }
+    "roundCovers": {
+      "name": "Okrogli pokrovi",
+      "details": "",
+      "longDescription": ""
     },
-    "roadCaps": {
-      "name": "Cestne kape",
-      "details": "Cestne kape za zunanji vodovod in plin, izdelane iz kakovostnih materialov.",
-      "longDescription": "Cestne kape so namenjene za dostop do ventilov in zasunov na vodovodnih in plinskih omrežjih. Izdelane so iz litine ali plastike in zagotavljajo enostaven dostop ter zaščito pred zunanjimi vplivi. Primerne so za vgradnjo na različnih prometnih površinah.",
-      "stats": {
-        "material": "Litina, Plastika",
-        "usage": "Vodovod, Plin",
-        "protection": "Protikorozijska zaščita"
-      },
-      "variants": {
-        "water": {
-          "size": "DN 80-100",
-          "material": "Litina",
-          "description": "Za vodovodne ventile"
-        },
-        "gas": {
-          "size": "DN 50-80",
-          "material": "Litina",
-          "description": "Za plinske ventile"
-        },
-        "plastic": {
-          "size": "Različne velikosti",
-          "material": "Plastika",
-          "description": "Za lažje obremenitve"
-        }
-      }
+    "squareCovers": {
+      "name": "Kvadratni pokrovi",
+      "details": "",
+      "longDescription": ""
     },
-    "concreteRings": {
-      "name": "Betonski prstani",
-      "details": "Betonski prstani za jaške in revizijske komore komunalne infrastrukture.",
-      "longDescription": "Betonski prstani so ključni elementi za gradnjo jaškov in revizijskih komor v komunalni infrastrukturi. Izdelani so iz armiranega betona visoke kakovosti, ki zagotavlja dolgotrajnost in odpornost proti zunanjim vplivom. Na voljo so v različnih premerih in višinah.",
-      "stats": {
-        "material": "Armirani beton",
-        "usage": "Jaški, revizijske komore",
-        "advantages": "Visoka nosilnost in trajnost"
-      },
-      "variants": {
-        "small": {
-          "size": "DN 600",
-          "material": "Beton",
-          "description": "Manjši jaški"
-        },
-        "medium": {
-          "size": "DN 800",
-          "material": "Beton",
-          "description": "Srednji jaški"
-        },
-        "large": {
-          "size": "DN 1000",
-          "material": "Beton",
-          "description": "Veliki jaški in komore"
-        }
-      }
+    "roundGrates": {
+      "name": "Okrogle rešetke",
+      "details": "",
+      "longDescription": ""
     },
-    "gullyPots": {
-      "name": "Požiralniki",
-      "details": "Cestni požiralniki za odvodnjo meteorne vode s cest in parkirišč.",
-      "longDescription": "Požiralniki so namenjeni zbiranju in odvajanju meteorne vode s cestišč, parkirišč in drugih utrjenih površin. Opremljeni so z usedalnikom za pesek in nečistoče ter priključkom za odvodno cev. Izdelani so iz betona ali plastike in so na voljo v različnih izvedbah.",
-      "stats": {
-        "material": "Beton, Plastika",
-        "usage": "Odvodnavanje cest",
-        "advantages": "Enostavno čiščenje in vzdrževanje"
-      },
-      "variants": {
-        "standard": {
-          "size": "400x400 mm",
-          "material": "Beton",
-          "description": "Standardni cestni požiralnik"
-        },
-        "small": {
-          "size": "300x300 mm",
-          "material": "Plastika",
-          "description": "Manjši požiralnik za dvorišča"
-        },
-        "large": {
-          "size": "500x500 mm",
-          "material": "Beton",
-          "description": "Veliki požiralnik za večje pretoke"
-        }
-      }
+    "squareGrates": {
+      "name": "Kvadratne rešetke",
+      "details": "",
+      "longDescription": ""
     },
-    "statsLabels": {
-      "standard": "Standard",
-      "loadClasses": "Razredi obremenitve",
-      "material": "Material",
-      "protection": "Zaščita",
-      "usage": "Uporaba",
-      "advantages": "Prednosti"
+    "edgeGrates": {
+      "name": "Robne rešetke",
+      "details": "",
+      "longDescription": ""
     }
   },
   "language": {
