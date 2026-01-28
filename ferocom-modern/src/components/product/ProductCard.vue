@@ -8,6 +8,7 @@
         class="w-full h-full object-cover group-hover:scale-105 transition-all duration-300 ease-out"
         :class="imageLoaded ? 'opacity-100' : 'opacity-0'"
         @load="onImageLoad"
+        @error="onImageError"
       />
     </div>
     <div class="space-y-2">
@@ -39,6 +40,10 @@ const imageLoaded = ref(false)
 
 const onImageLoad = () => {
   imageLoaded.value = true
+}
+
+const onImageError = (e) => {
+  e.target.src = '/images/placeholder.png'
 }
 
 const getProductName = () => {

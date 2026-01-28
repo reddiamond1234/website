@@ -16,6 +16,7 @@
           class="w-full h-full object-contain transition-opacity duration-300"
           :class="imageLoaded ? 'opacity-100' : 'opacity-0'"
           @load="imageLoaded = true"
+          @error="onImageError"
         />
       </div>
 
@@ -61,6 +62,10 @@ const translationKey = computed(() => props.product.translationKey)
 const getProductName = () => {
   const key = `productData.${translationKey.value}.name`
   return te(key) ? t(key) : props.product.name
+}
+
+const onImageError = (e) => {
+  e.target.src = '/images/placeholder.png'
 }
 
 const goBack = () => {
