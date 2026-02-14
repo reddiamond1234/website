@@ -1,41 +1,42 @@
-# FEROCOM d.o.o. Website
+# FEROCOM d.o.o.
 
-Company website for FEROCOM d.o.o., a Slovenian manufacturer of cast iron manhole covers, grates, and drainage systems.
+Company website for **FEROCOM d.o.o.**, a Slovenian manufacturer specializing in cast iron infrastructure products since 1992. The product catalog includes manhole covers, drainage grates, and channel drain systems (Gridion, Sabdrain) for municipal, road, and residential applications.
+
+The site supports four languages: Slovenian, English, Italian, and Croatian.
 
 ## Tech Stack
 
-- **Vue 3** with Composition API
-- **Vite** for build tooling
-- **TypeScript**
-- **Tailwind CSS**
-- **vue-i18n** for internationalization (SL, EN, HR, IT)
-- **Pinia** for state management
-- **Vue Router** with history mode
+| Category | Technology |
+|----------|------------|
+| Framework | Vue 3 (Composition API) |
+| Build | Vite 5 |
+| Language | TypeScript |
+| Styling | Tailwind CSS 3 |
+| Routing | Vue Router 4 (history mode) |
+| State | Pinia 3 |
+| i18n | vue-i18n 9 (SL, EN, IT, HR) |
+| Testing | Vitest + Playwright |
+| Linting | ESLint 9 with Vue + TypeScript configs |
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js >= 18.0.0
-- npm
-
-### Install & Run
+**Prerequisites:** Node.js >= 18
 
 ```bash
 npm install
 npm run dev
 ```
 
-The dev server starts at `http://localhost:5173`.
+Dev server runs at http://localhost:5173.
 
 ## Scripts
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start development server |
+| `npm run dev` | Start dev server with HMR |
 | `npm run build` | Production build to `dist/` |
-| `npm run preview` | Preview production build |
-| `npm run type-check` | TypeScript type checking |
+| `npm run preview` | Serve production build locally |
+| `npm run type-check` | Run TypeScript type checking |
 | `npm run lint` | Lint with ESLint |
 | `npm run lint:fix` | Lint and auto-fix |
 | `npm run test:unit` | Run unit tests (Vitest) |
@@ -44,50 +45,104 @@ The dev server starts at `http://localhost:5173`.
 ## Project Structure
 
 ```
-├── public/              Static assets (images, favicon, robots.txt)
+├── public/
+│   ├── images/
+│   │   ├── products/          Product photos
+│   │   └── files/             PDF catalogs and documents
+│   ├── .htaccess              Apache rewrite rules (SPA + security headers)
+│   ├── favicon.ico
+│   └── robots.txt
 ├── src/
 │   ├── components/
-│   │   ├── layout/      TheHeader, TheNavigation, TheFooter
-│   │   └── product/     ProductCard, ProductGrid, ProductDetail
-│   ├── views/           Page components (Home, About, Contact, Location, ProductDetail)
-│   ├── data/            Product catalog, company & contact data
-│   ├── i18n/            Translations (sl, en, hr, it)
-│   ├── router/          Vue Router config
-│   ├── stores/          Pinia stores
-│   ├── assets/          CSS and SVG assets
-│   ├── App.vue          Root component
-│   └── main.ts          Entry point
-├── e2e/                 Playwright E2E tests
-├── index.html           HTML entry point
-├── vite.config.ts       Vite config
-├── tailwind.config.js   Tailwind config
-└── tsconfig.json        TypeScript config
+│   │   ├── layout/            TheHeader, TheNavigation, TheFooter
+│   │   └── product/           ProductCard, ProductGrid, ProductDetail
+│   ├── views/
+│   │   ├── HomeView.vue       Product catalog grid (landing page)
+│   │   ├── AboutView.vue      Company info, load classes, inscriptions
+│   │   ├── ProductDetailView  Single product with specs and variants
+│   │   ├── LocationView.vue   Google Maps embed
+│   │   └── ContactView.vue    Contact details and working hours
+│   ├── data/                  Static data (products, company, contact)
+│   ├── i18n/
+│   │   ├── index.ts           i18n setup with locale persistence
+│   │   └── locales/           sl.json, en.json, it.json, hr.json
+│   ├── router/                Route definitions with lazy loading
+│   ├── stores/                Pinia stores
+│   ├── assets/                Global CSS, SVG logo
+│   ├── App.vue
+│   └── main.ts
+├── e2e/                       Playwright E2E tests
+├── scripts/
+│   └── deploy.sh              Build and push to production branch
+├── .github/workflows/
+│   └── ci.yml                 CI: type-check, lint, build
+├── index.html                 HTML entry point
+├── vite.config.ts
+├── tailwind.config.js
+├── tsconfig.json
+└── package.json
 ```
+
+## Pages
+
+| Route | Page | Description |
+|-------|------|-------------|
+| `/` | Home | Product catalog grid with cards |
+| `/about` | About | Company history, load classes (B125, C250, D400), inscription options |
+| `/product/:id` | Product Detail | Individual product with technical specs |
+| `/location` | Location | Address and embedded Google Map |
+| `/contact` | Contact | Email, phone numbers, working hours |
+
+All routes except `/` are lazy-loaded for smaller initial bundle.
 
 ## Deployment
 
-The `production` branch contains the built output served by the hosting provider.
+The site is hosted on shared hosting (Apache). The `production` branch contains the built static files that are served directly.
 
-To deploy:
+### Automated
 
 ```bash
-npm run build
-# Copy dist/ contents to production branch and push
 ./scripts/deploy.sh
+git push origin production
 ```
 
-Or manually:
+The script builds the project, copies `dist/` to the `production` branch, and commits with a timestamp.
+
+### Manual
 
 1. `npm run build`
-2. Switch to `production` branch
-3. Replace files with `dist/` contents
+2. `git checkout production`
+3. Replace all files with contents of `dist/`
 4. Commit and push
 
-## Branch Strategy
+### Branch Strategy
 
-- **main** - Source code, development happens here
-- **production** - Built output (`dist/`), deployed to hosting
+- **`main`** -- Source code. All development happens here.
+- **`production`** -- Built output only. Served by the hosting provider.
+
+## Adding Content
+
+### Products
+
+Edit `src/data/products.js` and add a new entry:
+
+```js
+{
+  id: 8,
+  translationKey: 'newProduct',
+  name: 'Product Name',
+  details: 'Short description',
+  image: '/images/products/photo.jpg',
+  longDescription: ''
+}
+```
+
+Add the product image to `public/images/products/` and translations to each locale file in `src/i18n/locales/`.
+
+### Translations
+
+Each locale file (`src/i18n/locales/*.json`) contains all UI strings. Add keys under the `products` section matching the `translationKey` from the product data.
 
 ## License
 
-Private - All rights reserved by FEROCOM d.o.o.
+Private -- All rights reserved by FEROCOM d.o.o.
