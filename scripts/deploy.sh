@@ -27,12 +27,13 @@ cp -r dist/* "$TMPDIR/"
 echo "Switching to production branch..."
 git checkout production
 
-# Remove existing files (except .git and .gitignore)
+# Remove existing files (except .git, .gitignore, .cpanel.yml)
 find . -maxdepth 1 \
   ! -name '.' \
   ! -name '..' \
   ! -name '.git' \
   ! -name '.gitignore' \
+  ! -name '.cpanel.yml' \
   -exec rm -rf {} +
 
 # Copy new build
@@ -47,4 +48,10 @@ git commit -m "Deploy: $TIMESTAMP"
 echo "Switching back to main..."
 git checkout main
 
-echo "Done. Run 'git push origin production' to publish."
+echo "Pushing production branch to origin..."
+git push origin production
+
+echo ""
+echo "Done! Production branch pushed to origin."
+echo "cPanel will auto-deploy if configured, or go to:"
+echo "  cPanel > Git Version Control > Manage > Pull or Deploy > Update from Remote"

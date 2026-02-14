@@ -97,28 +97,31 @@ All routes except `/` are lazy-loaded for smaller initial bundle.
 
 ## Deployment
 
-The site is hosted on shared hosting (Apache). The `production` branch contains the built static files that are served directly.
+The site is deployed to **domenca.com** shared hosting via cPanel Git deployment. The `production` branch contains the built static files and a `.cpanel.yml` that copies them to `public_html/`.
 
-### Automated
+### Deploy
 
 ```bash
 ./scripts/deploy.sh
-git push origin production
 ```
 
-The script builds the project, copies `dist/` to the `production` branch, and commits with a timestamp.
+This single command builds the project, commits the output to the `production` branch, and pushes to origin. cPanel then auto-pulls and runs the `.cpanel.yml` tasks to copy files into `public_html/`.
 
-### Manual
+### One-Time cPanel Setup
 
-1. `npm run build`
-2. `git checkout production`
-3. Replace all files with contents of `dist/`
-4. Commit and push
+1. Log in to cPanel and go to **Git Version Control**
+2. Click **Create** and fill in:
+   - **Clone URL:** `https://github.com/reddiamond1234/website.git`
+   - **Branch:** `production`
+   - **Repository Path:** `/home/feroco40/repositories/website`
+3. Save. Go to **Manage** > **Pull or Deploy** > **Update from Remote**, then **Deploy HEAD Commit**
+
+After this initial setup, every `git push origin production` will be available for deployment. Enable auto-deploy in cPanel for fully automatic deploys.
 
 ### Branch Strategy
 
 - **`main`** -- Source code. All development happens here.
-- **`production`** -- Built output only. Served by the hosting provider.
+- **`production`** -- Built output only. Contains `.cpanel.yml` for cPanel deployment.
 
 ## Adding Content
 
