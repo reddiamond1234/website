@@ -2,9 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/feroco40/public_html/
-    - /bin/cp -R index.html "$DEPLOYPATH"
-    - /bin/cp -R .htaccess "$DEPLOYPATH"
-    - /bin/cp -R favicon.ico "$DEPLOYPATH"
-    - /bin/cp -R robots.txt "$DEPLOYPATH"
-    - /bin/cp -R assets/ "$DEPLOYPATH"
-    - /bin/cp -R images/ "$DEPLOYPATH"
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R .htaccess $DEPLOYPATH
+    - /bin/cp -R favicon.ico $DEPLOYPATH
+    - /bin/cp -R robots.txt $DEPLOYPATH
+    - /bin/cp -R assets/ $DEPLOYPATH
+    - /bin/cp -R images/ $DEPLOYPATH
