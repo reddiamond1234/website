@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Proizvodi",
+    "about": "O nama",
+    "location": "Lokacija",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "companyName": "FEROCOM d.o.o."
+  },
+  "footer": {
+    "copyright": "© {year} FEROCOM d.o.o. Sva prava pridržana."
+  },
+  "home": {
+    "title": "Naši Proizvodi",
+    "selectProduct": "Odaberite proizvod za više informacija"
+  },
+  "about": {
+    "title": "O Nama",
+    "introduction": "FEROCOM d.o.o. iz Ljubljane osnovan je 1992. godine i u više od trideset godina izrastao je od prodavača kanalskog lijeva u specijaliziranu trgovačku i proizvodnu tvrtku za:",
+    "extendedIntro": "Od 1992. godine pouzdani smo dobavljač poklopaca od lijevanog željeza, rešetki, drenažnih kanala, cestovnih kapa i betonskih prstenova za cestovnu i komunalnu infrastrukturu, opslužujući općine, komunalna poduzeća, građevinske izvođače i investitore. Naši proizvodi koriste se na cestama, pločnicima, parkiralištima i drugim prometno opterećenim površinama gdje su sigurnost i trajnost od presudne važnosti.",
+    "fastDeliveryTitle": "Brza Dostava",
+    "fastDelivery": "Naša glavna prednost je brza dostava. Većina naših proizvoda stalno je na zalihi, što omogućuje kratke rokove isporuke i nesmetanu provedbu projekata bez kašnjenja. Po potrebi pružamo i prilagođena rješenja prema tehničkim zahtjevima kupca.",
+    "qualityTitle": "Kvaliteta",
+    "quality": "Nudimo kvalitetne proizvode izrađene od provjerenih materijala koji zadovoljavaju važeće tehničke standarde i prikladni su za velika prometna opterećenja. Naši poklopci dizajnirani su za dug vijek trajanja i minimalno održavanje.",
+    "supportTitle": "Podrška",
+    "support": "Osim proizvoda, nudimo i stručno savjetovanje, brzu reakciju i pouzdanu podršku, jer razumijemo da su vrijeme i kvaliteta ključni čimbenici u infrastrukturnim projektima.",
+    "productsTitle": "Naši Proizvodi",
+    "products": {
+      "covers": "Okrugli i kvadratni poklopci od lijevanog željeza, proizvedeni prema standardima SIST EN 124.",
+      "caps": "Sve vrste cestovnih kapa za vanjski vodovod i plin",
+      "channels": "Razne vrste drenažnih kanala"
+    },
+    "usageAreasTitle": "Dizajnirani za ugradnju u različitim područjima:",
+    "usageAreas": {
+      "b125": {
+        "class": "B 125 (150KN)",
+        "description": "pločnici, pješačke staze, parkirališta za osobna vozila"
+      },
+      "c250": {
+        "class": "C 250 (250KN)",
+        "description": "bankine, pločnici, bočne trake, parkirališta za kamione"
+      },
+      "d400": {
+        "class": "D 400 (400KN)",
+        "description": "ceste, ulice, bankine i parkirališta s teškim teretnim prometom"
+      }
+    },
+    "inscriptionsTitle": "Poklopci su dostupni s natpisima:",
+    "inscriptions": {
+      "sewage": "Kanalizacija",
+      "water": "Vodovod",
+      "phone": "Telefon",
+      "electricity": "Elektrika",
+      "none": "Bez natpisa"
+    },
+    "protection": "Svi proizvodi zaštićeni su od korozije crnom bojom.",
+    "foundedYear": "Osnovano {year}. godine"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "emailLabel": "E-pošta",
+    "phoneLabel": "Telefon",
+    "workingHoursTitle": "Radno Vrijeme",
+    "weekdays": "Ponedjeljak - Petak: 7:00 - 14:30",
+    "weekends": "Vikendi, Praznici: zatvoreno"
+  },
+  "location": {
+    "title": "Lokacija",
+    "addressLabel": "Adresa",
+    "address": "Brnčičeva ulica 45",
+    "city": "Ljubljana - Črnuče",
+    "country": "Slovenija",
+    "zip": "1000",
+    "mapTitle": "Pronađite nas na karti"
+  },
+  "products": {
+    "details": "Detalji",
+    "specifications": "Specifikacije",
+    "variants": "Varijante",
+    "size": "Veličina",
+    "material": "Materijal",
+    "description": "Opis",
+    "backToProducts": "Natrag na proizvode",
+    "notFound": "Proizvod nije pronađen"
+  },
+  "productData": {
+    "gridion": {
+      "name": "Kanali Gridion",
+      "details": "Cestovni odvodni kanali",
+      "longDescription": ""
+    },
+    "sabdrain": {
+      "name": "Kanali Sabdrain",
+      "details": "Kanali za kućnu upotrebu",
+      "longDescription": ""
+    },
+    "roundCovers": {
+      "name": "Okrugli poklopci",
+      "details": "",
+      "longDescription": ""
+    },
+    "squareCovers": {
+      "name": "Kvadratni poklopci",
+      "details": "",
+      "longDescription": ""
+    },
+    "roundGrates": {
+      "name": "Okrugle rešetke",
+      "details": "",
+      "longDescription": ""
+    },
+    "squareGrates": {
+      "name": "Kvadratne rešetke",
+      "details": "",
+      "longDescription": ""
+    },
+    "edgeGrates": {
+      "name": "Rubne rešetke",
+      "details": "",
+      "longDescription": ""
+    }
+  },
+  "language": {
+    "select": "Jezik",
+    "slovenian": "Slovensko",
+    "english": "English"
+  }
+}
