@@ -5,7 +5,8 @@ export const products = [
     name: 'Kanalete Gridion',
     details: 'Cestne kanalete',
     image: '/images/products/gridion.png',
-    longDescription: ''
+    longDescription: '',
+    pdfPath: '/images/files/Gridiron.pdf'
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ export const products = [
     name: 'Kanalete Sabdrain',
     details: 'Kanalete za domačo uporabo',
     image: '/images/products/sabdrain.jpg',
-    longDescription: ''
+    longDescription: '',
+    pdfPath: '/images/files/SABdrain.pdf'
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ export const products = [
     name: 'Okrogli pokrovi',
     details: '',
     image: '/images/products/fdg_round.png',
-    longDescription: ''
+    longDescription: '',
+    pdfPath: ''
   },
   {
     id: 4,
@@ -29,7 +32,8 @@ export const products = [
     name: 'Kvadratni pokrovi',
     details: '',
     image: '/images/products/fdg_squared.png',
-    longDescription: ''
+    longDescription: '',
+    pdfPath: ''
   },
   {
     id: 5,
@@ -37,7 +41,8 @@ export const products = [
     name: 'Okrogle rešetke',
     details: '',
     image: '/images/products/circle_drain.png',
-    longDescription: ''
+    longDescription: '',
+    pdfPath: ''
   },
   {
     id: 6,
@@ -45,7 +50,8 @@ export const products = [
     name: 'Kvadratne rešetke',
     details: '',
     image: '/images/products/drain_with_holes.png',
-    longDescription: ''
+    longDescription: '',
+    pdfPath: ''
   },
   {
     id: 7,
@@ -53,6 +59,7 @@ export const products = [
     name: 'Robne rešetke',
     details: '',
     image: '/images/products/angle_drain.png',
-    longDescription: ''
+    longDescription: '',
+    pdfPath: ''
   }
 ]

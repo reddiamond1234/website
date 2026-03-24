@@ -6,13 +6,14 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router'
 import ProductGrid from '@/components/product/ProductGrid.vue'
 import { products } from '@/data/products'
 
-const router = useRouter()
-
 const selectProduct = (product) => {
-  router.push(`/product/${product.id}`)
+  if (!product.pdfPath) {
+    return
+  }
+
+  window.open(product.pdfPath, '_blank', 'noopener,noreferrer')
 }
 </script>
